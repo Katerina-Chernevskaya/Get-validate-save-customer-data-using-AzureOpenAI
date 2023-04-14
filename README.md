@@ -45,7 +45,7 @@ This solution includes 5 objects:
 * Environment Variable `API key`
 * Connection References `CustomerConnectorConnection` and `DataverseConnection`
 * Flow `Get data for Account using Azure Open AI`
-* Table `Account` with 4 colums:
+* Table `Account` with 4 columns:
 ![Account Table Columns](./assets/AccountTableColumns.png)
 
 ## Prerequisites
@@ -74,6 +74,9 @@ Once both connections are configured - click `Next` button
 
 * Open the solution `Get-validate-save-customer-data-using-AzureOpenAI` and update Environmental Variable value with your API key.
 ![Update Environment Variable](./assets/Import_UpdateVariable.png)
+
+* Turn on the flow `Get data for Account using Azure Open AI`
+![Turn On Flow](./assets/Import_TurnOnFlow.png)
 
 *Once all steps will be completed you can use this flow for your Account table, for example for your CRM.*
 
